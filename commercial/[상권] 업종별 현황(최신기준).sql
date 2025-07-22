@@ -15,8 +15,6 @@ WITH
       )
     ORDER BY
       total_payment_count DESC
-    LIMIT
-      10
   )
 SELECT
   c.category_large AS "대분류",
